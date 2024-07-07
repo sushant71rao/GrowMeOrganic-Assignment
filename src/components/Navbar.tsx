@@ -7,11 +7,11 @@ const Navbar = () => {
         <div className="container flex items-center justify-between h-16  mx-auto md:px-24">
           <Link to="/" className="flex items-center gap-2">
             <ForestIcon className="text-mgreen"></ForestIcon>
-            <span className="font-bold text-xl text-mgreen">
+            <span className="font-bold md:text-xl text-mgreen">
               GrowMeOrganic-Task
             </span>
           </Link>
-          <nav className="flex items-center  gap-6 ">
+          <nav className="flex items-center text-sm md:text-base  gap-2 md:gap-6 ">
             <NavLink
               to="/"
               className={({ isActive }) =>

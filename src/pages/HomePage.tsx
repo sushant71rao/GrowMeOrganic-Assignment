@@ -55,11 +55,11 @@ const HomePage = () => {
       </Snackbar>
       <div className="flex justify-center flex-col items-center">
         <form
-          className="flex flex-col gap-4 bg-mgreen rounded-md  shadow-sm p-6 w-[32rem]"
+          className="flex flex-col gap-4 bg-mgreen rounded-md  shadow-sm p-6 md:w-[32rem]"
           onSubmit={SubmitHandler}
         >
           <div className="flex flex-col gap-1 text-center">
-            <div className="text-3xl font-semibold text-white">
+            <div className="text-xl md:text-3xl font-semibold text-white">
               Registration Desk
             </div>
             <div className="text-dgreen text-sm font-semibold tracking-wider">
