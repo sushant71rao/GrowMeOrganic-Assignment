@@ -4,7 +4,7 @@ const Navbar = () => {
   return (
     <>
       <div className=" w-full bg-dark text-white">
-        <div className="container flex items-center justify-between h-16  mx-auto md:px-24">
+        <div className="container flex items-center justify-between h-16  mx-auto md:px-24 px-3">
           <Link to="/" className="flex items-center gap-2">
             <ForestIcon className="text-mgreen"></ForestIcon>
             <span className="font-bold md:text-xl text-mgreen">

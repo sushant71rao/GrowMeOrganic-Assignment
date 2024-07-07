@@ -1,5 +1,5 @@
 import { useContext, useEffect, useState } from "react";
-import { Navigate, Outlet, useNavigate } from "react-router-dom";
+import { Outlet, useNavigate } from "react-router-dom";
 import { UserContext, UserContextType } from "../context/userinfo";
 import { Alert, Snackbar } from "@mui/material";
 
@@ -17,6 +17,7 @@ const Protected = () => {
     event?: React.SyntheticEvent | Event,
     reason?: string
   ) => {
+    console.log(event);
     if (reason === "clickaway") {
       return;
     }
